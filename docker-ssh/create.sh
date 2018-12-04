@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 # do not prompt http://stackoverflow.com/a/15890748/682912
-CONTAINER_NAME=docker-ssh-container
+CONTAINER_NAME=ansible-container
 container_count=1
 IMG_NAME=docker-ssh
 KEY_NAME=ansible_id_rsa
